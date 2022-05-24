@@ -176,6 +176,7 @@ function PlasmicBrand__RenderFunc(props: {
                           sty.link__huraY
                         )}
                         component={Link}
+                        href={"/brand" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -197,7 +198,7 @@ function PlasmicBrand__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobileOnly")
                             ? "Services"
-                            : "Services"}
+                            : "BRAND"}
                         </div>
 
                         {false ? (
@@ -220,6 +221,7 @@ function PlasmicBrand__RenderFunc(props: {
                           sty.link__irHzv
                         )}
                         component={Link}
+                        href={"/photos" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -239,7 +241,7 @@ function PlasmicBrand__RenderFunc(props: {
                             sty.text___6N1DL
                           )}
                         >
-                          {"Features"}
+                          {"PHOTOS"}
                         </div>
 
                         {false ? (
@@ -262,6 +264,7 @@ function PlasmicBrand__RenderFunc(props: {
                           sty.link__inHgp
                         )}
                         component={Link}
+                        href={"/digital" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -281,7 +284,7 @@ function PlasmicBrand__RenderFunc(props: {
                             sty.text__ewOcd
                           )}
                         >
-                          {"work"}
+                          {"DIGITAL"}
                         </div>
 
                         {false ? (
@@ -295,89 +298,92 @@ function PlasmicBrand__RenderFunc(props: {
                         ) : null}
                       </p.Stack>
 
-                      <p.Stack
-                        as={p.PlasmicLink}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__vCdGe
-                        )}
-                        component={Link}
-                        platform={"nextjs"}
-                      >
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__cNsa1
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-
-                        <div
+                      {true ? (
+                        <p.Stack
+                          as={p.PlasmicLink}
+                          hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__zzFAy
+                            projectcss.a,
+                            sty.link__vCdGe
                           )}
+                          component={Link}
+                          platform={"nextjs"}
                         >
-                          {"Contact"}
-                        </div>
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__cNsa1
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
 
-                        {false ? (
-                          <IconIcon
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.svg__zJyAo
+                              projectcss.__wab_text,
+                              sty.text__zzFAy
                             )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </p.Stack>
+                          >
+                            {"Contact"}
+                          </div>
 
-                      <p.Stack
-                        as={p.PlasmicLink}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__cHL
-                        )}
-                        component={Link}
-                        platform={"nextjs"}
-                      >
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__uiR1X
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-
-                        <div
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__zJyAo
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                      {true ? (
+                        <p.Stack
+                          as={p.PlasmicLink}
+                          hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___8LykY
+                            projectcss.a,
+                            sty.link__cHL
                           )}
+                          component={Link}
+                          platform={"nextjs"}
                         >
-                          {"Company"}
-                        </div>
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__uiR1X
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
 
-                        {false ? (
-                          <IconIcon
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.svg__yKl6
+                              projectcss.__wab_text,
+                              sty.text___8LykY
                             )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </p.Stack>
+                          >
+                            {"Company"}
+                          </div>
+
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__yKl6
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
                     </p.Stack>
                   </div>
                 ) : null}

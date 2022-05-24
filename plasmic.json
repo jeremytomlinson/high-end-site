@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -194,6 +194,11 @@
           "id": "F-TM5nQQJ",
           "name": "digital-imagery.png",
           "filePath": "../public/plasmic/classy_agency_website/images/digitalImagerypng.png"
+        },
+        {
+          "id": "KTI0uMlUj",
+          "name": "abstract-background.jpg",
+          "filePath": "../public/plasmic/classy_agency_website/images/abstractBackgroundjpg.jpeg"
         }
       ],
       "indirect": false,
