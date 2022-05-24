@@ -176,6 +176,7 @@ function PlasmicDigital__RenderFunc(props: {
                           sty.link__jgm4G
                         )}
                         component={Link}
+                        href={"/brand" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -197,7 +198,7 @@ function PlasmicDigital__RenderFunc(props: {
                         >
                           {hasVariant(globalVariants, "screen", "mobileOnly")
                             ? "Services"
-                            : "Services"}
+                            : "BRAND"}
                         </div>
 
                         {false ? (
@@ -220,6 +221,7 @@ function PlasmicDigital__RenderFunc(props: {
                           sty.link__leofH
                         )}
                         component={Link}
+                        href={"/photos" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -239,7 +241,7 @@ function PlasmicDigital__RenderFunc(props: {
                             sty.text__hQ3TE
                           )}
                         >
-                          {"Features"}
+                          {"PHOTOS"}
                         </div>
 
                         {false ? (
@@ -262,6 +264,7 @@ function PlasmicDigital__RenderFunc(props: {
                           sty.link___4HH4P
                         )}
                         component={Link}
+                        href={"/digital" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -281,7 +284,7 @@ function PlasmicDigital__RenderFunc(props: {
                             sty.text__dxmt
                           )}
                         >
-                          {"work"}
+                          {"DIGITAL"}
                         </div>
 
                         {false ? (
@@ -295,89 +298,92 @@ function PlasmicDigital__RenderFunc(props: {
                         ) : null}
                       </p.Stack>
 
-                      <p.Stack
-                        as={p.PlasmicLink}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__wwA56
-                        )}
-                        component={Link}
-                        platform={"nextjs"}
-                      >
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg___9V1Ak
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-
-                        <div
+                      {true ? (
+                        <p.Stack
+                          as={p.PlasmicLink}
+                          hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___797RD
+                            projectcss.a,
+                            sty.link__wwA56
                           )}
+                          component={Link}
+                          platform={"nextjs"}
                         >
-                          {"Contact"}
-                        </div>
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg___9V1Ak
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
 
-                        {false ? (
-                          <IconIcon
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.svg__qqcdh
+                              projectcss.__wab_text,
+                              sty.text___797RD
                             )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </p.Stack>
+                          >
+                            {"Contact"}
+                          </div>
 
-                      <p.Stack
-                        as={p.PlasmicLink}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.a,
-                          sty.link__i4Iu
-                        )}
-                        component={Link}
-                        platform={"nextjs"}
-                      >
-                        {false ? (
-                          <IconIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__lG6P
-                            )}
-                            role={"img"}
-                          />
-                        ) : null}
-
-                        <div
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__qqcdh
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                      {true ? (
+                        <p.Stack
+                          as={p.PlasmicLink}
+                          hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__nhxC
+                            projectcss.a,
+                            sty.link__i4Iu
                           )}
+                          component={Link}
+                          platform={"nextjs"}
                         >
-                          {"Company"}
-                        </div>
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__lG6P
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
 
-                        {false ? (
-                          <IconIcon
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.svg__alQyP
+                              projectcss.__wab_text,
+                              sty.text__nhxC
                             )}
-                            role={"img"}
-                          />
-                        ) : null}
-                      </p.Stack>
+                          >
+                            {"Company"}
+                          </div>
+
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__alQyP
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
                     </p.Stack>
                   </div>
                 ) : null}
@@ -485,7 +491,7 @@ function PlasmicDigital__RenderFunc(props: {
                       sty.text__e0Qy
                     )}
                   >
-                    {"BRAND | PRODUCT | DIGITAL"}
+                    {"BRAND | PHOTOS | DIGITAL"}
                   </div>
                 </p.Stack>
               ) : null}

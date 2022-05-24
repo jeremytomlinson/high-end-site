@@ -12,19 +12,14 @@
           "checksum": "fbc046996edd3e40e96506a916e8aae4"
         },
         {
-          "assetId": "rgXZJgqmFkieHf2V3HDQvL",
-          "type": "projectCss",
-          "checksum": "955046a48cdfd2639b082e83ecafd84e"
-        },
-        {
           "type": "renderModule",
           "assetId": "aE60PBhqQAAQy",
-          "checksum": "e9c0499925ef83b0e549c2f4979706a6"
+          "checksum": "0e79819e9ba95a305649df7a7f23b0f1"
         },
         {
           "type": "cssRules",
           "assetId": "aE60PBhqQAAQy",
-          "checksum": "e9c0499925ef83b0e549c2f4979706a6"
+          "checksum": "0e79819e9ba95a305649df7a7f23b0f1"
         },
         {
           "type": "renderModule",
@@ -39,22 +34,22 @@
         {
           "type": "renderModule",
           "assetId": "syOVkG1M7Ka",
-          "checksum": "12557693727a709bf217cd84f87435cd"
+          "checksum": "5d6caa2e2ab899cfb02a913ebc129900"
         },
         {
           "type": "cssRules",
           "assetId": "syOVkG1M7Ka",
-          "checksum": "12557693727a709bf217cd84f87435cd"
+          "checksum": "5d6caa2e2ab899cfb02a913ebc129900"
         },
         {
           "type": "renderModule",
           "assetId": "8o_e0Baej4Z",
-          "checksum": "e9c1a4b6dd6a5550c7b6951c09f286f1"
+          "checksum": "650e3105dcf00082a795f0a4bc4b81d7"
         },
         {
           "type": "cssRules",
           "assetId": "8o_e0Baej4Z",
-          "checksum": "e9c1a4b6dd6a5550c7b6951c09f286f1"
+          "checksum": "650e3105dcf00082a795f0a4bc4b81d7"
         },
         {
           "type": "icon",
@@ -165,6 +160,16 @@
           "type": "image",
           "assetId": "F-TM5nQQJ",
           "checksum": "5d1d2775d8bd399243108995042bb60e"
+        },
+        {
+          "assetId": "rgXZJgqmFkieHf2V3HDQvL",
+          "type": "projectCss",
+          "checksum": "955046a48cdfd2639b082e83ecafd84e"
+        },
+        {
+          "type": "image",
+          "assetId": "KTI0uMlUj",
+          "checksum": "c37d72b9ef14072fed6397047d727b8c"
         }
       ],
       "codegenVersion": "0.0.1"

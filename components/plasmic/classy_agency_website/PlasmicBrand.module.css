@@ -390,8 +390,8 @@
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  display: flex;
   cursor: pointer;
+  display: none;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -449,8 +449,8 @@
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
-  display: flex;
   cursor: pointer;
+  display: none;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
