@@ -221,9 +221,7 @@ function PlasmicBrand__RenderFunc(props: {
                           sty.link__irHzv
                         )}
                         component={Link}
-                        href={
-                          "https://high-end.fathym-it.com/dashboard" as const
-                        }
+                        href={"/dashboard/" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -663,9 +661,7 @@ function PlasmicBrand__RenderFunc(props: {
                                 sty.link___5Bvjw
                               )}
                               component={Link}
-                              href={
-                                "https://high-end.fathym-it.com/dashboard" as const
-                              }
+                              href={"/dashboard/" as const}
                               platform={"nextjs"}
                             >
                               <Icon18Icon
@@ -1388,7 +1384,7 @@ function PlasmicBrand__RenderFunc(props: {
                       sty.link__wHao
                     )}
                     component={Link}
-                    href={"https://high-end.fathym-it.com/dashboard" as const}
+                    href={"/dashboard/" as const}
                     platform={"nextjs"}
                   >
                     {false ? (

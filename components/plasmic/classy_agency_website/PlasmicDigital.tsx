@@ -221,9 +221,7 @@ function PlasmicDigital__RenderFunc(props: {
                           sty.link__leofH
                         )}
                         component={Link}
-                        href={
-                          "https://high-end.fathym-it.com/dashboard" as const
-                        }
+                        href={"/dashboard/" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -660,9 +658,7 @@ function PlasmicDigital__RenderFunc(props: {
                                 sty.link__rSNk
                               )}
                               component={Link}
-                              href={
-                                "https://high-end.fathym-it.com/dashboard" as const
-                              }
+                              href={"/dashboard/" as const}
                               platform={"nextjs"}
                             >
                               <Icon18Icon
@@ -1385,7 +1381,7 @@ function PlasmicDigital__RenderFunc(props: {
                       sty.link__pqmF
                     )}
                     component={Link}
-                    href={"https://high-end.fathym-it.com/dashboard" as const}
+                    href={"/dashboard/" as const}
                     platform={"nextjs"}
                   >
                     {false ? (
