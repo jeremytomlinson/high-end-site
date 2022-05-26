@@ -221,7 +221,9 @@ function PlasmicHomepage__RenderFunc(props: {
                           sty.link__dAhGx
                         )}
                         component={Link}
-                        href={"/photos" as const}
+                        href={
+                          "https://high-end.fathym-it.com/dashboard/" as const
+                        }
                         platform={"nextjs"}
                       >
                         {false ? (
@@ -241,7 +243,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__weBxc
                           )}
                         >
-                          {"PHOTOS"}
+                          {"DASHBOARD"}
                         </div>
 
                         {false ? (
@@ -472,7 +474,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.text___98R5M
                     )}
                   >
-                    {"BRAND | PHOTOS | DIGITAL"}
+                    {"BRAND | DASHBOARD | DIGITAL"}
                   </div>
                 </p.Stack>
               ) : null}
@@ -639,7 +641,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.link__mn2
                               )}
                               component={Link}
-                              href={"/photos" as const}
+                              href={
+                                "https://high-end.fathym-it.com/dashboard/" as const
+                              }
                               platform={"nextjs"}
                             >
                               <Icon18Icon
@@ -685,7 +689,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.h3__hhavm
                               )}
                             >
-                              {"PHOTOS"}
+                              {"DASHBOARD"}
                             </h3>
 
                             <div
@@ -1291,6 +1295,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__bC042
                     )}
                     component={Link}
+                    href={"/" as const}
                     platform={"nextjs"}
                   >
                     {false ? (
@@ -1307,7 +1312,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.text__l2BXq
                       )}
                     >
-                      {"Nav link"}
+                      {"Home"}
                     </div>
 
                     {false ? (
@@ -1327,6 +1332,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__dFv4X
                     )}
                     component={Link}
+                    href={"/brand" as const}
                     platform={"nextjs"}
                   >
                     {false ? (
@@ -1343,7 +1349,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.text___7XM8
                       )}
                     >
-                      {"Nav link"}
+                      {"Brand"}
                     </div>
 
                     {false ? (
@@ -1363,6 +1369,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__pnGQd
                     )}
                     component={Link}
+                    href={"https://high-end.fathym-it.com/dashboard/" as const}
                     platform={"nextjs"}
                   >
                     {false ? (
@@ -1379,12 +1386,49 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.text__vhyOr
                       )}
                     >
-                      {"Nav link"}
+                      {"Dashboard"}
                     </div>
 
                     {false ? (
                       <IconIcon
                         className={classNames(projectcss.all, sty.svg__cfDr5)}
+                        role={"img"}
+                      />
+                    ) : null}
+                  </p.Stack>
+
+                  <p.Stack
+                    as={p.PlasmicLink}
+                    hasGap={true}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__oDJc
+                    )}
+                    component={Link}
+                    href={"/digital" as const}
+                    platform={"nextjs"}
+                  >
+                    {false ? (
+                      <IconIcon
+                        className={classNames(projectcss.all, sty.svg__brsL)}
+                        role={"img"}
+                      />
+                    ) : null}
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__cEtIb
+                      )}
+                    >
+                      {"Digital"}
+                    </div>
+
+                    {false ? (
+                      <IconIcon
+                        className={classNames(projectcss.all, sty.svg___8HhTc)}
                         role={"img"}
                       />
                     ) : null}
