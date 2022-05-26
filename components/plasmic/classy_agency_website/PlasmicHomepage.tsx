@@ -197,7 +197,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "Services"
+                            ? "BRAND"
                             : "brand"}
                         </div>
 

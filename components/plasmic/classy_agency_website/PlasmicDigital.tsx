@@ -197,7 +197,7 @@ function PlasmicDigital__RenderFunc(props: {
                           )}
                         >
                           {hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "Services"
+                            ? "BRAND"
                             : "BRAND"}
                         </div>
 
