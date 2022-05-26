@@ -221,9 +221,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           sty.link__dAhGx
                         )}
                         component={Link}
-                        href={
-                          "https://high-end.fathym-it.com/dashboard/" as const
-                        }
+                        href={"/dashboard/" as const}
                         platform={"nextjs"}
                       >
                         {false ? (
