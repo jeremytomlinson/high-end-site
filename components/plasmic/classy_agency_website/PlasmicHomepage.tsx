@@ -639,9 +639,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.link__mn2
                               )}
                               component={Link}
-                              href={
-                                "https://high-end.fathym-it.com/dashboard/" as const
-                              }
+                              href={"/dashboard/" as const}
                               platform={"nextjs"}
                             >
                               <Icon18Icon
@@ -1367,7 +1365,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__pnGQd
                     )}
                     component={Link}
-                    href={"https://high-end.fathym-it.com/dashboard/" as const}
+                    href={"/dashboard/" as const}
                     platform={"nextjs"}
                   >
                     {false ? (
